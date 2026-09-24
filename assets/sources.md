@@ -24,3 +24,5 @@ Images have been faithfully resized and encoded as WebP. Composition and black-a
 
 ## Customer contact correction — 24 September 2026
 User explicitly supplied WhatsApp +220 912 2427 and address Lamin Mandinary, Lamin, WCR. All WhatsApp links now use that number; the two previously confirmed brand-document numbers remain telephone contacts.
+
+WhatsApp brand mark: Simple Icons v15, https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg (CC0 icon distribution; WhatsApp trademark belongs to its owner). Standard logo is used solely to identify the WhatsApp contact destination.
