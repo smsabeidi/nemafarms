@@ -21,3 +21,6 @@ Images have been faithfully resized and encoded as WebP. Composition and black-a
 - poultry-daylight.webp, field-workers.webp, egg-harvest.webp: built-in imagegen, fictional illustrative scenes. Original outputs preserved as *-concept.png; exact prompts in matching *-prompt.txt. Optimized WebP variants generated for responsive delivery. Labelled as illustrative in website and enlarged views.
 - Customer phone numbers confirmed by user from brand document: +220 917 6319 and +220 912 2395. No WhatsApp availability inferred.
 - assets/vendor/gsap.min.js and ScrollTrigger.min.js: GSAP 3.14.2 from jsDelivr npm distribution. Original copyright/license notices preserved. License: https://gsap.com/standard-license.
+
+## Customer contact correction — 24 September 2026
+User explicitly supplied WhatsApp +220 912 2427 and address Lamin Mandinary, Lamin, WCR. All WhatsApp links now use that number; the two previously confirmed brand-document numbers remain telephone contacts.
