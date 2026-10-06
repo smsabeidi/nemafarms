@@ -39,7 +39,7 @@ The former `/approach`, `/partners`, `/buying` and `/gallery` routes redirect to
 - index.html: shared navigation/footer and script loading.
 - styles.css and pages.css: shared and original supporting-page styles.
 - pages.js: farm, approach and contact.
-- design-v2.js / design-v2.css: current homepage, product collection and expanded visual system.
+- atelier.js / atelier.css: current homepage, product collection and farm systems presentation.
 - commerce.js / commerce.css: product detail, wholesale, buying guide.
 - editorial.js / editorial.css: community, partners, journal, essays and gallery.
 - app.js: routing, product/quantity selection, preview form, navigation and gallery.
