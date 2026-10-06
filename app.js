@@ -101,6 +101,11 @@
       if (hash && !hash.startsWith('#/')) return;
       const [path, query = ''] = hash.replace(/^#\/?/, '').split('?');
       let [raw, section] = path.replace(/\/$/, '').split('/');
+      const aliases = { approach: 'farm', partners: 'community', buying: 'wholesale', gallery: 'journal' };
+      if (aliases[raw]) {
+        window.location.hash = `#/${aliases[raw]}`;
+        return;
+      }
       if(raw==='products' && ['poultry','eggs','produce'].includes(section)){raw=section==='poultry'?'chicken':section;section=undefined;}
       const route = !raw ? 'home' : Object.prototype.hasOwnProperty.call(titles, raw) ? raw : 'missing';
       const params = new URLSearchParams(query);

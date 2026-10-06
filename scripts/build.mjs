@@ -15,7 +15,7 @@ async function assets(dir = 'assets') {
   for (const entry of await readdir(new URL(`${dir}/`, root), { withFileTypes: true })) {
     const path = join(dir, entry.name);
     if (entry.isDirectory()) await assets(path);
-    else if (/\.webp$/.test(entry.name) || path === 'assets/logo.png' || (dir === 'assets/vendor' && /\.js$/.test(entry.name))) {
+    else if (/\.(webp|jpe?g)$/.test(entry.name) || /\.png$/.test(entry.name) || (dir === 'assets/vendor' && /\.js$/.test(entry.name))) {
       await copyFile(new URL(path, root), new URL(path, out)); count++;
     }
   }
